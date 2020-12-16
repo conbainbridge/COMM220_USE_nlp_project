@@ -198,10 +198,12 @@ head(tstat_freq2, 20)
 # Literature prompt
 frequency_plot1 <- textstat_frequency(mydfm1, n= 1000) %>%
   ggplot(aes(x= rank, y = frequency)) + geom_point() + labs(x= "Frequency Rank", y = "Frequency Term") + ggtitle("Word frequency for Literature prompt")
+frequency_plot1
 
 # My English prompt
 frequency_plot2 <- textstat_frequency(mydfm2, n= 1000) %>%
   ggplot(aes(x= rank, y = frequency)) + geom_point() + labs(x= "Frequency Rank", y = "Frequency Term") + ggtitle("Word frequency for \"My English\" prompt")
+frequency_plot2
 
 
 # Setting up similarity data for possible future analyses
@@ -212,6 +214,7 @@ tstat_similarity <- textstat_dist(
   margin = c("documents"),
   p = 2
 )
+tstat_similarity
 
 
 
@@ -238,7 +241,7 @@ t.test(querydfm, querydfm2) # us is significant
 
 
 
-# Works up until this next code...
+# Needs debugging - setup for future investigations of prediction analyses
 newq <- predict(mylsa1, newdata = querydfm)
 newq$docs_newspace[, 1:2]
 ##### Resources for debugging this above part?
