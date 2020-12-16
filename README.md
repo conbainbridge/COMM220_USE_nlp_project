@@ -7,4 +7,5 @@ Natural language processing of essays in the USE (Uppsala Student English) corpu
 * Frequencies of ngrams/bigrams
 
 [**Info on the USE corpus**](https://www.engelska.uu.se/research/english-language/electronic-resources/use/)
-[**Data from USE corpus*](https://ota.bodleian.ox.ac.uk/repository/xmlui/handle/20.500.12024/2457)
+
+[**Data from USE corpus**](https://ota.bodleian.ox.ac.uk/repository/xmlui/handle/20.500.12024/2457)
