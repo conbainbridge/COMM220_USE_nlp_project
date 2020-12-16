@@ -1,4 +1,4 @@
-# COMM220_USE_nlp_project
+# COMM220 USE Dataset NLP Project
 Natural language processing of essays in the USE (Uppsala Student English) corpus, for COMM 220 final project. This project compares essays in response to a literature analysis prompt with essays from an "English, my English" prompt. These essays were written by English learners in Sweden. In future work, I intend to investigate differences in self- versus other-communication methods, such as through different journal prompts, social representations in dreams, and various modulations in mental health and wellbeing that may result from different creative media.
 
 
