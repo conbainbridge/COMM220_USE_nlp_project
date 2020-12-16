@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader type="ISBD-ER">
+      <fileDesc>
+         <titleStmt>
+            <title type="main">The Uppsala Student English Corpus (USE)</title>
+            <editor>Axelsson, Margareta Westergren</editor>
+            <editor>Berglund, Ylva</editor>
+            <funder>University of Uppsala</funder>
+         </titleStmt>
+         <extent>
+            <seg type="designation">Text data</seg>
+            <seg type="size">(1499 files : ca. 6.66 MB)</seg>
+         </extent>
+         <publicationStmt>
+            <authority>deposited by<name type="person">Kyto, Merja</name>
+               <name type="department">Department of English</name>
+University of Uppsala
+<name type="place">Sweden</name>
+               <address>[Depositor details removed]</address>
+               <date>2003-04-14</date>
+            </authority>
+            <distributor>
+               <orgName type="OTA">Oxford Text Archive</orgName>
+               <placeName>Oxford</placeName>
+               <address>
+                  <orgName type="OTA">Oxford Text Archive</orgName>
+                  <orgName type="Bodleian">Bodleian Libraries</orgName>
+                  <addrLine>Broad St</addrLine>
+                  <addrLine>Oxford</addrLine>
+                  <addrLine>OX1 3BG</addrLine>
+               </address>
+               <email>ota@bodleian.ox.ac.uk</email>
+            </distributor>
+            <idno type="OTA">2457</idno>
+            <idno type="ota">2457</idno>
+	           <idno type="PURL">http://purl.ox.ac.uk/ota/2457</idno>
+            <!--New OTA availability statement-->
+            <availability n="OTA-new" status="free" rend="visible">
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+	  Distributed by the University of Oxford under a Creative Commons
+	  Attribution-NonCommercial-ShareAlike 3.0 Unported License.</licence>
+            </availability>
+            <!--Old Availability-->
+            <date>2003-08</date>
+         </publicationStmt>
+         <seriesStmt>
+            <p/>
+         </seriesStmt>
+         <notesStmt>
+        
+            <note type="summary">The corpus consists of 1,489 essays written by 440 Swedish university students of English at three different levels, the majority in their first term of full-time studies. The total number of words is 1,221,265, which means an average essay length of 820 words. The most typical essay, from the first term, is somewhat shorter, averaging 777 words.</note>
+            <note type="nb">Axelsson, Margareta Westergren. 2000. 'USE-The Uppsala Student English Corpus: An instrument for needs analysis'. ICAME Journal 24, 155-7. Available online at http://icame.uib.no/ij24/use.pdf</note>
+            <note type="nb">Axelsson, Margareta Westergren. 1999. 'Project USE (Uppsala Student English)'. ASLA Information 25:2, 25-6.
+</note>
+            <note type="nb">Student data available on MS Excel file as well as manual on corpus.</note>
+         </notesStmt>
+         <sourceDesc>
+            <p>no source record</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+         <samplingDecl>
+            <p/>
+         </samplingDecl>
+         <editorialDecl>
+            <p>Encoding format: Plain text</p>
+            <p>Encoding format: Microsoft Excel 2000</p>
+         </editorialDecl>
+         <refsDecl>
+            <p/>
+         </refsDecl>
+         <classDecl>
+            <taxonomy xml:id="OTASH">
+               <bibl>University of Oxford Text Archive Subject Headings</bibl>
+            </taxonomy>
+            <taxonomy xml:id="LCSH">
+               <bibl>Library of Congress Subject Headings</bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date>1999-2001</date>
+         </creation>
+         <langUsage>
+            <language ident="eng">English</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#OTASH">
+               <term type="genre">Linguistic corpora</term>
+            </keywords>
+            <keywords scheme="#LCSH">
+               <term type="genre">English language--Study and teaching--Foreign speakers</term>
+            </keywords>
+            <keywords scheme="#LCSH">
+               <term type="genre">English language--Acquisition</term>
+            </keywords>
+         </textClass>
+         <textClass>
+            <keywords scheme="http://www.ota.ox.ac.uk/processing">
+               <term type="class">corpus</term>
+               <term type="license">Free for non-commercial use</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2004-01-19</date>
+            <label>cataloguer</label>
+            <name>Simpson, Greg</name>Attribute 'author' changed to 'editor'
+      </change>
+         <change>
+            <date>2003-09-12</date>
+            <label>cataloguer</label>
+            <name>Simpson, Greg</name>Final TEIXML header composed
+      </change>
+         <change>
+            <date>2003-08-01</date>
+            <label>cataloguer</label>
+            <name>Morrison, Alan</name>Draft TEIXML header composed
+      </change>
+      </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="OTA-filemap" rend="visible" n="unrestricted">
+            <ab type="dir">
+               <seg type="part">1</seg>
+               <ptr type="resourcePart" target="USEcorpus"/>
+            </ab>
+            <ab type="file">
+               <ptr type="resourcePart" target="ReadMe.txt"/>
+            </ab>
+            <ab type="file">
+               <ptr type="resourcePart" target="USE database.xls"/>
+            </ab>
+            <ab type="file">
+               <ptr type="resourcePart" target="USE manual.doc"/>
+            </ab>
+         </div>
+      </body>
+  </text>
+</TEI>
